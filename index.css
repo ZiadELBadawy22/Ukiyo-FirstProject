@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* This sets the background image for your entire website */
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/ukiyo-store.firebasestorage.app/o/Gemini_Generated_Image_gras9wgras9wgras.png?alt=media&token=394dd09d-c538-4f18-9e9e-5525dbb164f6s");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* This is a custom utility class for the predictive search dropdown scrollbar */
+.thin-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+.thin-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
